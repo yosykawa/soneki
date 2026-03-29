@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python3 -m pip install pandas openpyxl --trusted-host pypi.org --trusted-host files.pythonhosted.org)",
+      "Bash(cmd.exe /c \"python --version\")",
+      "Bash(cmd.exe /c \"py --version\")",
+      "Bash(cmd.exe /c \"py -3 --version && py -3 -m pip install pandas openpyxl --trusted-host pypi.org --trusted-host files.pythonhosted.org\")",
+      "Bash(cmd.exe /c \"where python & where py & where pip\")",
+      "Bash(cmd.exe /c \"where python\")",
+      "Read(//c/Users/tomoya_yoshikawa.ARGOGRAPHICS/AppData/Local/Programs/Python//**)",
+      "Bash(ls \"/c/Python\"*)",
+      "Read(//c/Program Files/**)",
+      "Bash(\"/c/Users/tomoya_yoshikawa.ARGOGRAPHICS/AppData/Local/Programs/Python/Python37/python.exe\" -m pip install pandas openpyxl --trusted-host pypi.org --trusted-host files.pythonhosted.org)",
+      "Bash(\"/c/Users/tomoya_yoshikawa.ARGOGRAPHICS/AppData/Local/Programs/Python/Python37/python.exe\" update_dashboard.py)",
+      "Bash(python update_dashboard.py)",
+      "Bash(python3 \"C:\\\\Users\\\\tomoya_yoshikawa.ARGOGRAPHICS\\\\Desktop\\\\Claude\\\\Code\\\\update_dashboard.py\")",
+      "Bash(py \"C:\\\\Users\\\\tomoya_yoshikawa.ARGOGRAPHICS\\\\Desktop\\\\Claude\\\\Code\\\\update_dashboard.py\")",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(.gitignore:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

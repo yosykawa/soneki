@@ -1,0 +1,7 @@
+# Sensitive data & Excel files
+data/
+\#TEMP/
+
+# OS files
+.DS_Store
+Thumbs.db
